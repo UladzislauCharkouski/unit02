@@ -1,7 +1,7 @@
 package com.epam.unit02.main;
 
 public class Task13 {
-//Найдите наибольшую цифру данного натурального числа.
+//ГЌГ Г©Г¤ГЁГІГҐ Г­Г ГЁГЎГ®Г«ГјГёГіГѕ Г¶ГЁГґГ°Гі Г¤Г Г­Г­Г®ГЈГ® Г­Г ГІГіГ°Г Г«ГјГ­Г®ГЈГ® Г·ГЁГ±Г«Г .
 	public static void main(String[] args) {
 		String s="12487128467";
 	    String[] a = s.split("");
@@ -10,8 +10,8 @@ public class Task13 {
             if(Integer.parseInt(a[i])>max) {
             	max=Integer.parseInt(a[i]);
             }
-         }
-	    	System.out.println("Наибольшая цифра натурального числа =" + max);
+         }// Р°РєРєСѓСЂР°С‚РЅРµР№ СЃ С„РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµРј РєРѕРґР°
+	    	System.out.println("ГЌГ ГЁГЎГ®Г«ГјГёГ Гї Г¶ГЁГґГ°Г  Г­Г ГІГіГ°Г Г«ГјГ­Г®ГЈГ® Г·ГЁГ±Г«Г  =" + max);
 	}
 }
  
